@@ -9,6 +9,11 @@ This is a Service Management System that allows users to manage services, tasks,
 1. [Prerequisites](#prerequisites)
 2. [Setup Instructions](#setup-instructions)
 3. [Running Migrations](#running-migrations)
+
+-Run these commands 
+-dotnet ef migrations add InitialCreate
+-dotnet ef database update
+
    - [Create a Migration](#create-a-migration)
    - [Apply Migrations to the Database](#apply-migrations-to-the-database)
    - [Rollback a Migration](#rollback-a-migration)
