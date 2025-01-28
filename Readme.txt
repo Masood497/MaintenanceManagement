@@ -10,7 +10,7 @@ This is a Service Management System that allows users to manage services, tasks,
 2. [Setup Instructions](#setup-instructions)
 3. [Running Migrations](#running-migrations)
 
--Run these commands 
+-Run these commands in package manager console
 -dotnet ef migrations add InitialCreate
 -dotnet ef database update
 
